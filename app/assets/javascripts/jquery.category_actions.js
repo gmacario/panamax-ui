@@ -177,7 +177,7 @@
     base.$el = el;
     base.defaultOptions = {
       content: 'span.title',
-      editSelector: '.actions a.edit-action'
+      editSelector: 'header .actions a.edit-action'
     };
 
     base.init = function() {
